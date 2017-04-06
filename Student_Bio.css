@@ -1,0 +1,64 @@
+body {
+	background-color: #efeee7;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-color: #333333;
+	font-size: 18px;
+	margin: 0;
+	padding: 0;
+	line-height: 150%
+	}
+
+header {
+	background-color: #333333;
+	}
+
+h1	{
+	color: #efeee7;
+	font-size: 28px;
+	background-color: #333333;
+	margin: 0;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	}
+
+h2 {
+	font-size: 24px;
+}
+
+/*Make the links red*/
+a {
+	color: #d21034;
+}
+
+.container {
+	width:1024px;
+	margin: 0 auto; 
+}
+
+#main-bio, #contact-info, #bio-image {
+	float: left;
+	/*Floats everything to the left side but ensure 
+	that there is enough space*/
+}
+
+#bio-image {
+	width: 200px;
+	height: 200px;
+	/*Setting the image width and height ensures that it 
+	looks the same no matter the size the windo*/
+	/*margin-left: 0 auto;*/
+	margin-right: 20px; 
+	/*Moved the text right,farther away from the image*/
+}
+
+#main-bio {
+	width: 70%;
+}
+/*These 2 widths ensure that there is enough space 
+whenever we float to the left. so 70 + 30 = 100%
+*/
+#contact-info {
+	width: 30%;
+}
+

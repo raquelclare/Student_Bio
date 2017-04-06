@@ -1,38 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
+
 <head>
-
+	<meta charset="UTF-8">
 	<title>Student Bio</title>
-
+	<link href="Student_Bio.css" type="text/css" rel="stylesheet"/>
 </head>
 
 <body>
+	<header>
+		<h1>Student Bio</h1>
+	</header>
+	<!-- Here down contains everying in the body except the header. It is a division ("div") entitled "container". Written as .container when called in CSS-->
+	<div class="container"> 
+		<!-- Section 1 entitled "main-bio". This helps us reference it in the CSS later on. Written as #main-bio when called in CSS -->
+		<section id="main-bio">
 
-	<h1>Student Bio</h1>
+			<h2>Raquel Bohannan</h2>
 
-	<h2>Raquel Bohannan</h2>
+			<img id="bio-image" src="https://igcdn-photos-b-a.akamaihd.net/hphotos-ak-xpa1/t51.2885-15/10513850_350817095113025_122733927_n.jpg"/>
 
-	<br/>
-	<br/>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu sem non quam tempor porta. Nunc dolor ligula, dignissim et tempus ac, gravida eu sapien. Suspendisse pretium faucibus enim, ut molestie nulla consequat a. Morbi velit justo, faucibus quis convallis a, vestibulum ut massa. Cras consectetur tortor sem, ut iaculis elit pellentesque sit amet. Mauris mattis lectus quis tristique accumsan. Etiam volutpat quam nisl, ac semper diam rhoncus sed. Nam in semper mi. Ut sed quam risus. Vivamus metus sapien, tincidunt quis velit interdum, porta tincidunt arcu. Nunc vel tellus velit. Curabitur vel placerat ipsum, id bibendum tortor. Suspendisse fringilla.</p>
 
-	<img src="https://www.google.com/search?q=raquel+bohannan&rlz=1C5CHFA_enUS698US699&espv=2&source=lnms&tbm=isch&sa=X&ved=0ahUKEwidoIXTz47TAhVEyWMKHUXmBGIQ_AUIBigB&biw=820&bih=722#imgrc=rkCH20NGyaSieM:"/>
+		</section>
+		<!-- Section 2 entitled "contact-info" -->
+		<section id="contact-info">
 
-	<br/>
-	<br/>
-
-	<p>
-
-	Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eu sem non quam tempor porta. Nunc dolor ligula, dignissim et tempus ac, gravida eu sapien. Suspendisse pretium faucibus enim, ut molestie nulla consequat a. Morbi velit justo, faucibus quis convallis a, vestibulum ut massa. Cras consectetur tortor sem, ut iaculis elit pellentesque sit amet. Mauris mattis lectus quis tristique accumsan. Etiam volutpat quam nisl, ac semper diam rhoncus sed. Nam in semper mi. Ut sed quam risus. Vivamus metus sapien, tincidunt quis velit interdum, porta tincidunt arcu. Nunc vel tellus velit. Curabitur vel placerat ipsum, id bibendum tortor. Suspendisse fringilla.
-
-	</p>
-
-	<h2>Contact Info</h2>
-
-	<ul>
-		<li>Email: raquel.b@utexas.edu</li>
-		<li>Github: raquelclare</li>
-		<li>Portfolio: coming soon</li>
-	</ul>
+			<h2>Contact Info</h2>
+			<ul>
+				<li><strong>Email:</strong> <a href="#">raquel.b@utexas.edu</a></li>
+				<li><strong>Github:</strong> <a href="#">raquelclare</a></li>
+				<li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
+			</ul>
+		</section>
+	</div>
 
 </body>
 </html>
